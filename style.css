@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+
+:root {
+    --primary: #000;
+    --background: #f4ccc1;
+}
+
+
+body {
+    font-family: 'Permanent Marker',sans-serif;
+    background-color: var(--background);
+    color: var(--primary);
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 400px;
+    gap: 0.5rem;
+
+}
+
+.card {
+    width: 120px;
+    height: 120px;
+}
+
+#result {
+    font-size: 1rem;
+    color: darkslateblue;
+}
